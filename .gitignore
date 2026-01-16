@@ -1,13 +1,27 @@
-.idea/
 *.iml
 *.iws
 *.eml
-out/
-.DS_Store
 .svn
-log/*.log
-tmp/**
 node_modules/
 .sass-cachey
-website/mij_past_events_planning_mail.pages
-.vscode
+
+# Build output
+/dist
+/.vite
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log

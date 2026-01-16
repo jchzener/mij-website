@@ -1,13 +1,23 @@
-Repo to gather some codes and test ideas from MTLideaJams meetings and interests.
+# Montreal Idea Jams
 
----
+Repo for the official [Montreal Idea Jams](https://montrealideajams.com) website — a monthly gathering for builders and people who take entrepreneurship seriously.
 
-Want to create reveal.js presentation in a graphical editor? Try <https://slides.com>. It's made by the same people behind reveal.js.
 
----
+Built on [Vite](https://vitejs.dev) + React + i18next (EN/FR).
 
----
+## Develop
+
+```bash
+# install dependencies
+npm install
+
+# start dev server
+npm run dev
+
+# production build
+npm run build
 
 <div align="center">
   MIT licensed 
 </div>
+---
