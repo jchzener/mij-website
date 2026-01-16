@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "join": "Join the conversation",
+    "past": "Past Jams"
+  },
+  "home": {
+    "hero": {
+      "title": "A space for builders, and those who are thinking about building.",
+      "subtitle": "No slides. No pitching. Just honest conversations about the processes and decisions behind the work.",
+      "cta": "Join the next Jam",
+      "footer": "Montreal · In-person · Once a month",
+      "imageAlt": "People in conversation at Montreal Idea Jams"
+    },
+    "nextJam": {
+      "eyebrow": "Our Next gathering",
+      "title": "January 30 · Building Together in 2026",
+      "context": "We’re kicking off 2026 with a planning session — no speaker. As group we'll think and plan together what matters most this year.",
+      "speakerIntro": "Featuring",
+      "speakerName": "You & the Community",
+      "speakerTitle": "Co-creators of 2026’s themes",
+      "quote": "2026 is off to a great start!",
+      "date": "January 30, 2026",
+      "dateLabel": "Date",
+      "time": "7:00 PM – 10:00 PM",
+      "location": "Downtown Montreal",
+      "timeLabel": "Time",
+      "locationLabel": "Location",
+      "rsvp": "Limited seats · RSVP recommended",
+      "cta": "Reserve your spot"
+    },
+
+    "why": {
+      "title": "Why Montreal Idea Jams?",
+      "thesis": "Most entrepreneurial community optimize for visibility.\nWe optimize for thinking before building.",
+      "p1": "Entrepreneurship is usually discussed in rooms that demand confidence — designed for pitching, networking, or personal branding.",
+      "p2": "But the most consequential moments happen earlier: when ideas are still fragile, trade-offs unclear, and the right path undecided.",
+      "p3": "MIJ exists to make space for thinking out loud, challenging assumptions, embracing uncertainty, and learning directly from experienced builders."
+    },
+    "jamExperience": {
+      "title": "What a Jam feels like?",
+      "p1": "You arrive with a drink— not a pitch.\nConversations start loosely, then sharpen around what matters.",
+      "p2": "Most Jams center around an experienced builder, a founder actively building a new product or solution, or sometimes an expert invited to walk us through a specific question or problem.",
+      "p3": "We think and learn together. You leave, not with a playbook, but with better questions, clearer instincts, and the quiet confidence that you’re not thinking alone."
+    },
+    "past": {
+      "title": "Past MIJ conversations...",
+      "subtitle": "Since April 2024, Montreal Idea Jams has gathered founders, operators, investors, and builders to explore what entrepreneurship actually feels like — beyond the pitch decks and growth metrics.",
+      "viewAll": "View all past Jams"
+    },
+
+    "intent": {
+      "c1": {
+        "title": "Think Together",
+        "body": "Slow down complex decisions.\nWork through trade-offs, assumptions, and second-order effects — out loud, with people who care about getting it right."
+      },
+      "c2": {
+        "title": "Sharpen Judgment",
+        "body": "Pressure-test ideas against reality. Replace narratives with clear reasoning, and intuition with mental models that have been tested in real markets, real teams, and real constraints."
+      },
+      "c3": {
+        "title": "Build deliberately",
+        "body": "Study real building processes.\nHow products, teams, and systems actually come together — constraints, sequencing, failures, and hard-earned lessons."
+      }
+    },
+
+    "who": {
+      "title": "Who should join",
+      "description": "People seriously thinking about entrepreneurship — whether they’re about to start, already building, or quietly questioning what comes next."
+    },
+
+    "finalCta": {
+      "title": "Come for the conversation.\nStay for the thinking.",
+      "cta": "Join the conversation"
+    },
+
+    "convoImageAlt": "Small group discussion during a Jam",
+    "peopleImageAlt": "People talking, listening, and thinking together"
+  },
+
+  "pastJams": {
+    "title": "Past Idea Jams conversations",
+    "subtitle": "A growing archive of in-person conversations with founders, operators, investors, and builders — focused on real work, real questions, and the realities of building.",
+    "backToUpcoming": "Back to upcoming Jams",
+    "header": {
+      "backToHome": "Montreal Idea Jams"
+    }
+  },
+
+  "jamDetail": {
+    "takeaways": "Key Takeaways",
+    "resources": "Recommended Resources",
+    "joinNext": {
+      "cta": "Join the next Montreal Idea Jam",
+      "note": "Small group · No pitching · Thoughtful conversations",
+      "button": "Reserve your spot",
+      "whyItMattered": "Why this conversation mattered"
+    },
+    "backToAll": "Back to Past Jams",
+    "header": {
+      "backToAll": "All Past Jams"
+    },
+    "notFound": {
+      "title": "Jam not found",
+      "description": "The requested session could not be found. Please check the URL or browse our archives.",
+      "back": "Back to all Jams"
+    }
+  }
+}
