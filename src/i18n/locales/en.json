@@ -31,14 +31,14 @@
 
     "why": {
       "title": "Why Montreal Idea Jams?",
-      "thesis": "Most entrepreneurial community optimize for visibility.\nWe optimize for thinking before building.",
+      "thesis": "Most entrepreneurial community optimize for visibility. \nWe optimize for thinking before building.",
       "p1": "Entrepreneurship is usually discussed in rooms that demand confidence — designed for pitching, networking, or personal branding.",
       "p2": "But the most consequential moments happen earlier: when ideas are still fragile, trade-offs unclear, and the right path undecided.",
       "p3": "MIJ exists to make space for thinking out loud, challenging assumptions, embracing uncertainty, and learning directly from experienced builders."
     },
     "jamExperience": {
       "title": "What a Jam feels like?",
-      "p1": "You arrive with a drink— not a pitch.\nConversations start loosely, then sharpen around what matters.",
+      "p1": "You arrive with a drink — not a pitch. Conversations start loosely, then sharpen around what matters.",
       "p2": "Most Jams center around an experienced builder, a founder actively building a new product or solution, or sometimes an expert invited to walk us through a specific question or problem.",
       "p3": "We think and learn together. You leave, not with a playbook, but with better questions, clearer instincts, and the quiet confidence that you’re not thinking alone."
     },
@@ -51,7 +51,7 @@
     "intent": {
       "c1": {
         "title": "Think Together",
-        "body": "Slow down complex decisions.\nWork through trade-offs, assumptions, and second-order effects — out loud, with people who care about getting it right."
+        "body": "Slow down complex decisions. Work through trade-offs, assumptions, and second-order effects — out loud, with people who care about getting it right."
       },
       "c2": {
         "title": "Sharpen Judgment",
@@ -59,7 +59,7 @@
       },
       "c3": {
         "title": "Build deliberately",
-        "body": "Study real building processes.\nHow products, teams, and systems actually come together — constraints, sequencing, failures, and hard-earned lessons."
+        "body": "Study real building processes. How products, teams, and systems actually come together: constraints, sequencing, failures, and hard-earned lessons."
       }
     },
 
@@ -69,7 +69,7 @@
     },
 
     "finalCta": {
-      "title": "Come for the conversation.\nStay for the thinking.",
+      "title": "Come for the conversation. \nStay for the thinking.",
       "cta": "Join the conversation"
     },
 

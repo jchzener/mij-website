@@ -226,7 +226,7 @@ export default function Home() {
             {t("home.who.description")}
           </p>
 
-          <h2 className="text-3xl font-semibold mb-6">
+          <h2 className="text-3xl font-semibold mb-6 whitespace-pre-line">
             {t("home.finalCta.title")}
           </h2>
 

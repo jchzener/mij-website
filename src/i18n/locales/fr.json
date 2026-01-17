@@ -5,95 +5,68 @@
   },
   "home": {
     "hero": {
-      "title": "Des conversations mensuelles pour celles et ceux qui prennent l’entrepreneuriat au sérieux.",
-      "subtitle": "Pas de diapos. Pas de pitch. Juste des histoires vraies et des échanges sincères.",
-      "cta": "Participer à la prochaine Jam",
-      "footer": "Montréal · En personne · Une fois par mois",
-      "imageAlt": "Personnes en discussion lors d’une Montreal Idea Jam"
+      "title": "Un espace pour les bâtisseurs et ceux qui envisagent de construire",
+      "subtitle": "Pas de slides. Pas de pitch. D'honnêtes conversations les processus et les décisions qui façonnent le travail.",
+      "cta": "Participer au prochain Jam",
+      "footer": "Montréal · En présentiel · Une fois par mois",
+      "imageAlt": "Personnes en conversation lors des Montreal Idea Jams"
     },
+
     "nextJam": {
-      "eyebrow": "Planification de l’année",
-      "title": "30 janvier · Construire ensemble en 2026",
-      "context": "On lance 2026 avec une session de planification collective — pas d’invité·e cette fois. Ensemble, on va réfléchir à ce qui compte le plus cette année.",
+      "eyebrow": "Prochaine rencontre",
+      "title": "30 janvier · Construire ensemble 2026",
+      "context": "Nous lançons 2026 avec une session de réflexion collective — sans conférencier. Ensemble, nous prendrons le temps de penser et de définir ce qui compte vraiment cette année.",
       "speakerIntro": "Avec",
       "speakerName": "Vous et la communauté",
-      "speakerTitle": "Co-créateurs des thèmes 2026",
-      "quote": "2026 prend un excellent départ !",
-      "detailsTitle": "Détails",
+      "speakerTitle": "Co-bâtisseurs des thèmes de 2026",
+      "quote": "2026 commence par une bonne conversation.",
       "date": "30 janvier 2026",
       "dateLabel": "Date",
-      "time": "19 h 00 – 22 h 00",
+      "time": "19h00 – 22h00",
       "location": "Centre-ville de Montréal",
-      "note": "En personne · Places limitées",
-      "details": "Détails",
       "timeLabel": "Heure",
       "locationLabel": "Lieu",
-      "notes": "En personne · Places limitées",
       "rsvp": "Places limitées · RSVP recommandé",
-      "cta": "Réserver votre place"
+      "cta": "Réserver sa place"
     },
-    "jamExperience": {
-      "title": "À quoi ressemble un Jam",
-      "p1": "On arrive avec un verre, pas un pitch.\nLes conversations commencent librement et prennent de la profondeur.",
-      "p2": "Quelqu’un partage une vraie réflexion en cours.\nLes autres écoutent, questionnent et enrichissent.",
-      "p3": "À la fin de la soirée, on repart avec moins de réponses —\nmais de meilleures questions."
-    },
+
     "why": {
       "title": "Pourquoi Montreal Idea Jams ?",
-      "thesis": "La plupart des communautés entrepreneuriales optimisent pour la visibilité.\nNous optimisons pour la réflexion avant la construction.",
-      "p1": "L’entrepreneuriat est généralement abordé dans des espaces qui exigent de la confiance — conçus pour le pitch, le réseautage ou la mise en scène personnelle.",
-      "p2": "Mais les moments les plus déterminants arrivent plus tôt : lorsque les idées sont encore fragiles, les compromis flous et la trajectoire incertaine.",
-      "p3": "MIJ existe pour créer un espace où l’on peut réfléchir à voix haute, remettre en question les hypothèses, accepter l’incertitude et apprendre directement auprès de bâtisseurs expérimentés."
+      "thesis": "La plupart des communautés entrepreneuriales optimisent pour la visibilité. \nNous optimisons pour la réflexion avant la construction.",
+      "p1": "L’entrepreneuriat se discute souvent dans des espaces qui exigent de la certitude — conçus pour pitcher, réseauter ou se mettre en scène.",
+      "p2": "Mais les décisions les plus déterminantes arrivent plus tôt : quand les idées sont encore fragiles, les arbitrages flous, et la bonne direction incertaine.",
+      "p3": "MIJ existe pour créer un espace où l’on peut réfléchir à voix haute, remettre en question ses hypothèses, embrasser l’incertitude et apprendre directement de bâtisseurs expérimentés."
     },
-    "credibility": {
-      "title": "Qui était dans la salle",
-      "intro": "Au fil des mois, ces rencontres ont réuni des fondateurs, des opérateurs, des investisseurs et des bâtisseurs aux parcours très différents — tous là pour réfléchir, pas pour pitcher.",
-      "people": [
-        "Fondateurs de startups en phase précoce",
-        "Opérateurs en phase de croissance",
-        "Personnes acquérant et dirigeant des PME",
-        "Investisseurs évaluant des opportunités",
-        "Experts en IA, climat, jeux vidéo, juridique et finance"
-      ],
-      "topicsTitle": "Quelques conversations passées",
-      "topics": [
-        "Acquisition de PME (repreneuriat)",
-        "Évaluation d’investissements early-stage",
-        "Cas d’usage concrets de l’IA",
-        "Croître sans briser la culture",
-        "La réalité vécue de l’entrepreneuriat"
-      ]
+
+    "jamExperience": {
+      "title": "À quoi ressemble un Jam ?",
+      "p1": "On arrive avec un verre, pas un pitch. Les conversations commencent librement, puis se resserrent autour de ce qui compte vraiment.",
+      "p2": "La plupart des Jams s’articulent autour d’un bâtisseur expérimenté, d’un fondateur en train de construire un nouveau produit ou une solution, ou parfois d’un expert invité pour explorer une question ou un problème précis.",
+      "p3": "On réfléchit et on apprend ensemble. On repart sans playbook, mais avec de meilleures questions, des instincts plus aiguisés et la certitude tranquille de ne pas réfléchir seul."
     },
-    "convoImageAlt": "Petit groupe en discussion pendant une Jam",
-    "format": {
-      "title": "À quoi ressemble une Jam ?",
-      "item1": "Un·e entrepreneur·e invité·e",
-      "item2": "Des récits, des leçons apprises… et des surprises",
-      "item3": "Des questions ouvertes et une discussion collective"
-    },
-    "peopleImageAlt": "Des gens qui discutent, pas qui présentent",
+
     "past": {
-      "title": "Des conversations passées qui ont façonné notre réflexion",
-      "subtitle": "Depuis avril 2024, Montreal Idea Jams rassemble fondateurs, opérateurs, investisseurs et bâtisseurs pour explorer à quoi ressemble vraiment l’entrepreneuriat — au-delà des pitchs et des métriques de croissance.",
-      "viewAll": "Voir toutes les Jams passées"
-    },
-    "who": {
-      "title": "À qui s’adresse l’événement ?",
-      "description": "Aux personnes curieuses de l’entrepreneuriat et qui envisagent sérieusement de sauter le pas — ou qui l’ont déjà fait."
+      "title": "Conversations passées",
+      "subtitle": "Depuis avril 2024, Montreal Idea Jams réunit fondateurs, opérateurs, investisseurs et bâtisseurs pour explorer ce que l’entrepreneuriat implique réellement, au-delà des pitch decks et des métriques de croissance.",
+      "viewAll": "Voir tous les Jams passés"
     },
     "intent": {
       "c1": {
         "title": "Penser ensemble",
-        "body": "Ralentir les décisions complexes.\nTravailler les compromis, les hypothèses et les effets de second ordre — à voix haute, avec des gens qui veulent vraiment bien faire."
+        "body": "Ralentir les décisions complexes. Travailler les compromis, les hypothèses et les effets de second ordre, à voix haute et avec des gens qui veulent vraiment bien faire."
       },
       "c2": {
-        "title": "Affiner son jugement",
+        "title": "Affûter son jugement",
         "body": "Confronter ses idées à la réalité. Remplacer les histoires par un raisonnement clair, et l’intuition par des modèles mentaux éprouvés dans de vrais marchés, de vraies équipes et de vraies contraintes."
       },
       "c3": {
         "title": "Construire avec intention",
-        "body": "Étudier de vrais processus de construction.\nComment les produits, les équipes et les systèmes prennent forme — contraintes, séquençage, échecs, et leçons durement acquises."
+        "body": "Étudier de vrais processus de construction. Comment les produits, les équipes et les systèmes prennent forme : contraintes, planning, échecs, et leçons durement acquises."
       }
+    },
+    "who": {
+      "title": "À qui s’adresse l’événement ?",
+      "description": "Des personnes qui prennent l’entrepreneuriat au sérieux — qu’elles soient sur le point de démarrer, déjà en train de construire, ou simplement en train de se demander ce qui vient après."
     },
     "finalCta": {
       "title": "Venez pour la conversation.\nRestez pour la réflexion.",
