@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { pastJams } from "../data/pastJams";
 
 import Section from "../components/Section";
-import SectionTitle from "../components/SectionTitle";
+import SectionTitle from "../components/Section";
 import PaperCard from "../components/PaperCard";
 
 export default function JamDetailPage() {
