@@ -11,7 +11,6 @@ export default function JamCard({ jam }: JamCardProps) {
   const { i18n } = useTranslation();
   const lang = i18n.language.startsWith("fr") ? "fr" : "en";
 
-  // deterministic "hand-placed" tilt
   const hash = [...jam.id].reduce((acc, c) => acc + c.charCodeAt(0), 0);
   const tilt = hash % 2 === 0 ? "rotate(1.2deg)" : "rotate(-1.2deg)";
 
