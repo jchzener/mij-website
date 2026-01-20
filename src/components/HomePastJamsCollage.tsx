@@ -58,7 +58,6 @@ export default function HomePastJamsCollage() {
               </span>
             </div>
 
-            {/* folded corner */}
             <div className="absolute top-0 right-0 w-6 h-6 bg-stone-900/5 rotate-45 translate-x-2 -translate-y-2" />
           </Link>
         ))}
