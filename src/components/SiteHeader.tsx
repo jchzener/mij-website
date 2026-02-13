@@ -43,7 +43,7 @@ export default function SiteHeader({ backTo, backLabel }: Props) {
           <Link to="/jams" className="hover:text-stone-900 transition">
             {t("nav.past")}
           </Link>
-          <LanguageToggle />
+          {/* <LanguageToggle /> */}
         </nav>
 
         {/* Mobile hamburger */}
