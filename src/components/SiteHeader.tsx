@@ -90,7 +90,7 @@ export default function SiteHeader({ backTo, backLabel }: Props) {
               </li>
 
               <li className="pt-4 border-t border-stone-300 text-sm text-stone-600">
-                <LanguageToggle />
+                {/* <LanguageToggle /> */}
               </li>
             </ul>
           </motion.nav>
