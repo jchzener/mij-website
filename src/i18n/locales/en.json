@@ -12,6 +12,23 @@
       "imageAlt": "People in conversation at Montreal Idea Jams"
     },
     "nextJam": {
+      "eyebrow": "Our Next Gathering",
+      "title": "March 27 · Going International",
+      "context": "This month we explore how builders expand beyond borders:  accessing new markets, partnerships, and opportunities through international networks and institutions.",
+      "speakerIntro": "Featuring",
+      "speakerName": "Viviane Ferran & David Chabot",
+      "speakerTitle": "International trade & go-to-market perspectives",
+      "quote": "New markets start with better conversations.",
+      "date": "March 27, 2026",
+      "dateLabel": "Date",
+      "time": "7:00 PM – 10:00 PM",
+      "timeLabel": "Time",
+      "location": "Downtown Montreal",
+      "locationLabel": "Location",
+      "rsvp": "Limited seats · RSVP recommended",
+      "cta": "Reserve your spot"
+    },
+    "nextJam_january": {
       "eyebrow": "Our Next gathering",
       "title": "January 30 · Building Together in 2026",
       "context": "We’re kicking off 2026 with a planning session — no speaker. As group we'll think and plan together what matters most this year.",
