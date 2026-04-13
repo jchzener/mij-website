@@ -13,6 +13,23 @@
     },
     "nextJam": {
       "eyebrow": "Our Next Gathering",
+      "title": "April 24 · Company Valuation",
+      "context": "This month we explore what really drives company value: from valuation multiples to the dynamics of the acquisition market, including both sellers, buyers, and everything in between.",
+      "speakerIntro": "Featuring",
+      "speakerName": "Simon Leroux",
+      "speakerTitle": "Founder, investor & builder of Optionality",
+      "quote": "Your company is only worth what someone is willing to pay — let’s make that number count.",
+      "date": "April 24, 2026",
+      "dateLabel": "Date",
+      "time": "7:00 PM – 10:00 PM",
+      "timeLabel": "Time",
+      "location": "Downtown Montreal",
+      "locationLabel": "Location",
+      "rsvp": "Limited seats · RSVP recommended",
+      "cta": "Reserve your spot"
+    },
+    "nextJam_march": {
+      "eyebrow": "Our Next Gathering",
       "title": "March 27 · Going International",
       "context": "This month we explore how builders expand beyond borders:  accessing new markets, partnerships, and opportunities through international networks and institutions.",
       "speakerIntro": "Featuring",
