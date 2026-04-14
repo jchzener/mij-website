@@ -129,8 +129,9 @@ export default function Home() {
                     </p>
                   </div>
 
+                  {/* https://tally.so/r/wogA4V */}
                   <a
-                    href="https://tally.so/r/wogA4V"
+                    href="https://luma.com/3wh64lfo"
                     target="_blank"
                     rel="noreferrer"
                   >
