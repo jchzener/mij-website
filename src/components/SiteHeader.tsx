@@ -34,7 +34,8 @@ export default function SiteHeader({ backTo, backLabel }: Props) {
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-6 text-sm text-stone-600">
           <a
-            href="https://tally.so/r/wogA4V"
+            // href="https://tally.so/r/wogA4V"
+            href="https://luma.com/3wh64lfo"
             target="_blank"
             className="hover:text-stone-900 transition"
           >
@@ -76,7 +77,7 @@ export default function SiteHeader({ backTo, backLabel }: Props) {
             <ul className="space-y-6 text-lg text-stone-800">
               <li>
                 <a
-                  href="https://tally.so/r/wogA4V"
+                  href="https://luma.com/3wh64lfo"
                   target="_blank"
                   onClick={() => setOpen(false)}
                 >

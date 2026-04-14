@@ -29,7 +29,7 @@ export default function Home() {
             {t("home.hero.subtitle")}
           </p>
 
-          <a href="https://tally.so/r/wogA4V" target="_blank" rel="noreferrer">
+          <a href="https://luma.com/3wh64lfo" target="_blank" rel="noreferrer">
             <button className="bg-stone-900 text-white px-7 py-3.5 rounded-xl text-sm hover:bg-stone-800 transition active:translate-y-px w-fit">
               {t("home.hero.cta")}
             </button>
@@ -131,7 +131,7 @@ export default function Home() {
 
                   {/* https://tally.so/r/wogA4V */}
                   <a
-                    href="https://luma.com/3wh64lfo"
+                    href="//luma.com/3wh64lfo"
                     target="_blank"
                     rel="noreferrer"
                   >
