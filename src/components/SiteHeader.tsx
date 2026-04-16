@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import LanguageToggle from "./LanguageToggle";
+// import LanguageToggle from "./LanguageToggle";
 
 type Props = {
   backTo?: string;
