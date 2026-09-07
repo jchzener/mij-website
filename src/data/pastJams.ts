@@ -38,12 +38,8 @@ export const pastJams: Jam[] = [
     resources: [],
     gallery: [
       {
-        src: "/images/jams/20260828_205748.jpg",
+        src: "/images/jams/20260828_205750.jpg",
         alt: "Montreal Idea Jam at HEC Montréal, August 2026",
-      },
-      {
-        src: "/images/jams/20260828_205755.jpg",
-        alt: "Montreal Idea Jam discussion at HEC Montréal, August 2026",
       },
     ],
   },
