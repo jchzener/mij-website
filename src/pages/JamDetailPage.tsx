@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { pastJams } from "../data/pastJams";
 
 import Section from "../components/Section";
-import SectionTitle from "../components/Section";
+import { SectionTitle } from "../components/Section";
 import PaperCard from "../components/PaperCard";
 
 export default function JamDetailPage() {
@@ -52,32 +52,51 @@ export default function JamDetailPage() {
       </header>
 
       <article className="max-w-3xl mx-auto px-6 py-24">
-        {/* SPEAKER INTRO */}
-        <header className="mb-24 flex flex-col md:flex-row gap-10">
-          <img
-            src={jam.speaker.image}
-            alt={jam.speaker.name}
-            onError={(e) => {
-              (e.target as HTMLImageElement).src =
-                "/images/speakers/default.jpg";
-            }}
-            className="w-36 h-36 rounded-2xl object-cover border border-stone-200 shadow-sm"
-          />
+        {/* SESSION INTRO */}
+        <header className="mb-24">
+          <div className="flex flex-col md:flex-row gap-8 md:items-center">
+            {jam.speaker?.image ? (
+              <img
+                src={jam.speaker.image}
+                alt={jam.speaker.name}
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src =
+                    "/images/speakers/default.jpg";
+                }}
+                className="w-28 h-28 rounded-2xl object-cover border border-stone-200 shadow-sm"
+              />
+            ) : jam.speakers?.length ? (
+              <div className="w-28 h-28 rounded-2xl bg-stone-200 border border-stone-200 flex items-center justify-center text-stone-500 text-sm">
+                MIJ
+              </div>
+            ) : null}
 
-          <div>
-            <h1 className="font-serif text-3xl md:text-4xl">
-              {jam.speaker.name}
-            </h1>
+            <div>
+              <h1 className="font-serif text-3xl md:text-4xl">
+                {jam.speakers?.length
+                  ? jam.speakers.map((speaker) => speaker.name).join(" & ")
+                  : (jam.speaker?.name ?? "Montreal Idea Jams")}
+              </h1>
 
-            <p className="text-stone-600 mt-2">{jam.speaker.title[lang]}</p>
+              <p className="text-stone-600 mt-2">
+                {jam.speakers?.length
+                  ? jam.speakers
+                      .map((speaker) => speaker.title[lang])
+                      .join(" · ")
+                  : (jam.speaker?.title[lang] ??
+                    (jam.format === "community"
+                      ? "Community conversation"
+                      : "Informal gathering"))}
+              </p>
 
-            <p className="mt-4 text-sm text-stone-500">
-              {jam.location[lang]} · {formattedMonth} · {year}
-            </p>
+              <p className="mt-4 text-sm text-stone-500">
+                {jam.location[lang]} · {formattedMonth} · {year}
+              </p>
 
-            <span className="inline-block mt-5 px-3 py-1 text-xs rounded-full bg-stone-200 text-stone-700">
-              {jam.theme[lang]}
-            </span>
+              <span className="inline-block mt-5 px-3 py-1 text-xs rounded-full bg-stone-200 text-stone-700">
+                {jam.theme[lang]}
+              </span>
+            </div>
           </div>
         </header>
 
@@ -98,32 +117,36 @@ export default function JamDetailPage() {
           ))}
         </Section>
 
-        {/* QUOTE — EDITORIAL PAUSE */}
-        <Section className="pt-8">
-          <PaperCard rotate={-1}>
-            <blockquote className="font-serif text-xl md:text-2xl italic text-stone-700">
-              “{jam.quote[lang]}”
-            </blockquote>
-          </PaperCard>
-        </Section>
+        {/* QUOTE */}
+        {jam.quote && (
+          <Section className="pt-8">
+            <PaperCard rotate={-1}>
+              <blockquote className="font-serif text-xl md:text-2xl italic text-stone-700">
+                “{jam.quote[lang]}”
+              </blockquote>
+            </PaperCard>
+          </Section>
+        )}
 
         {/* TAKEAWAYS */}
-        <Section>
-          <SectionTitle>{t("jamDetail.takeaways")}</SectionTitle>
+        {jam.takeaways && jam.takeaways[lang].length > 0 && (
+          <Section>
+            <SectionTitle>{t("jamDetail.takeaways")}</SectionTitle>
 
-          <ul className="grid md:grid-cols-3 gap-6">
-            {jam.takeaways[lang].map((item, i) => (
-              <li
-                key={i}
-                className="rounded-2xl bg-white p-6 border border-stone-200 shadow-sm"
-              >
-                <p className="text-stone-700 italic text-sm leading-relaxed">
-                  {item}
-                </p>
-              </li>
-            ))}
-          </ul>
-        </Section>
+            <ul className="grid md:grid-cols-3 gap-6">
+              {jam.takeaways[lang].map((item, i) => (
+                <li
+                  key={i}
+                  className="rounded-2xl bg-white p-6 border border-stone-200 shadow-sm"
+                >
+                  <p className="text-stone-700 italic text-sm leading-relaxed">
+                    {item}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </Section>
+        )}
 
         {/* RESOURCES */}
         {jam.resources && jam.resources.length > 0 && (

@@ -19,23 +19,27 @@ export interface GalleryItem {
   alt: string;
 }
 
+export interface Speaker {
+  name: string;
+  title: LocalizedText;
+  image?: string;
+}
+
 export interface Jam {
   id: string;
   readingTime: number;
+  format?: "guest" | "community" | "informal" | "panel";
   keyQuestion: LocalizedText;
   context: LocalizedText;
   theme: LocalizedText;
   displayDate: LocalizedText;
   location: LocalizedText;
-  speaker: {
-    name: string;
-    title: LocalizedText;
-    image: string;
-  };
+  speaker?: Speaker;
+  speakers?: Speaker[];
   description: LocalizedText;
   descriptionLong: LocalizedText;
-  quote: LocalizedText;
-  takeaways: LocalizedArray;
+  quote?: LocalizedText;
+  takeaways?: LocalizedArray;
   resources?: Resource[];
   gallery?: GalleryItem[];
 }

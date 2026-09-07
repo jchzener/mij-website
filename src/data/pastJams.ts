@@ -4,6 +4,250 @@ import { Jam } from "../types/jam";
 
 export const pastJams: Jam[] = [
   {
+    id: "jam-2026-08",
+    readingTime: 3,
+    format: "panel",
+    keyQuestion: {
+      en: "What changes when entrepreneurship starts with an existing business rather than a blank page?",
+      fr: "Qu’est-ce qui change quand l’entrepreneuriat commence avec une entreprise existante plutôt qu’une page blanche ?",
+    },
+    context: {
+      en: "In August, we partnered with Familles en affaires at HEC Montréal for a conversation about repreneuriat. The focus was broader than the transaction itself: what it means to take over an existing business and actually build from there.",
+      fr: "En août, nous nous sommes associés à Familles en affaires de HEC Montréal pour une discussion sur le repreneuriat. L’idée allait au-delà de la transaction : que signifie reprendre une entreprise existante et réellement construire à partir de là ?",
+    },
+    theme: {
+      en: "Repreneuriat: Beyond Buying a Business",
+      fr: "Repreneuriat : au-delà de l’achat d’une entreprise",
+    },
+    displayDate: {
+      en: "August 2026",
+      fr: "août 2026",
+    },
+    location: {
+      en: "HEC Montréal",
+      fr: "HEC Montréal",
+    },
+    description: {
+      en: "A conversation about entrepreneurship through acquisition and what comes after the transaction.",
+      fr: "Une discussion sur l’entrepreneuriat par acquisition et sur ce qui vient après la transaction.",
+    },
+    descriptionLong: {
+      en: "For this Jam, we joined Familles en affaires at HEC Montréal to look at repreneuriat from the operator’s side.\n\nThe starting point was simple: buying a business is only one part of the story. The more interesting questions begin after the deal. What are you actually taking over? What can you change? What should you leave alone? And how do you build something of your own without throwing away what already works?",
+      fr: "Pour ce Jam, nous nous sommes joints à Familles en affaires de HEC Montréal pour regarder le repreneuriat du point de vue de l’opérateur.\n\nLe point de départ était simple : acheter une entreprise n’est qu’une partie de l’histoire. Les questions les plus intéressantes commencent après la transaction. Qu’est-ce qu’on reprend réellement ? Qu’est-ce qu’on peut changer ? Qu’est-ce qu’il vaut mieux laisser intact ? Et comment construire quelque chose qui nous ressemble sans détruire ce qui fonctionne déjà ?",
+    },
+    resources: [],
+    gallery: [
+      {
+        src: "/images/jams/20260828_205748.jpg",
+        alt: "Montreal Idea Jam at HEC Montréal, August 2026",
+      },
+      {
+        src: "/images/jams/20260828_205755.jpg",
+        alt: "Montreal Idea Jam discussion at HEC Montréal, August 2026",
+      },
+    ],
+  },
+  {
+    id: "jam-2026-06",
+    readingTime: 2,
+    format: "informal",
+    keyQuestion: {
+      en: "Where are we halfway through the year, and what do we want to do with the next six months?",
+      fr: "Où en sommes-nous à mi-année, et que voulons-nous faire des six prochains mois ?",
+    },
+    context: {
+      en: "We left the usual room behind for a summer evening at Terrasse St-Ambroise. The agenda was deliberately loose: check in on the year so far, talk about what was not working, and share what was coming up.",
+      fr: "Nous avons quitté notre lieu habituel pour une soirée d’été à la Terrasse St-Ambroise. L’ordre du jour était volontairement simple : faire le point sur l’année, parler de ce qui ne fonctionnait pas et partager ce qui s’en venait.",
+    },
+    theme: {
+      en: "Mid-Year Check-In",
+      fr: "Point de mi-année",
+    },
+    displayDate: {
+      en: "June 2026",
+      fr: "juin 2026",
+    },
+    location: {
+      en: "Terrasse St-Ambroise, Montreal",
+      fr: "Terrasse St-Ambroise, Montréal",
+    },
+    description: {
+      en: "A summer check-in on goals, progress, upcoming events, and whatever else was on people’s minds.",
+      fr: "Un point de mi-année autour des objectifs, des avancées, des prochains événements et des sujets du moment.",
+    },
+    descriptionLong: {
+      en: "June was our summer Jam, so we traded the usual setup for a terrace and a more informal evening.\n\nThe conversation was built around a mid-year check-in: what had moved forward, what had not, what people wanted to accomplish before the end of the year, and what was happening around Montreal’s startup ecosystem. Startupfest, summer plans, and the usual side conversations were all part of the mix.",
+      fr: "Le Jam de juin était notre rendez-vous d’été. Nous avons donc remplacé le format habituel par une terrasse et une soirée plus informelle.\n\nLa discussion tournait autour d’un point de mi-année : ce qui avait avancé, ce qui n’avait pas avancé, ce que chacun voulait accomplir avant la fin de l’année et ce qui se passait dans l’écosystème startup montréalais. Startupfest, les plans d’été et les conversations qui partent dans tous les sens faisaient aussi partie du programme.",
+    },
+    resources: [],
+  },
+  {
+    id: "jam-2026-04",
+    readingTime: 4,
+    format: "guest",
+    keyQuestion: {
+      en: "What actually determines the value of a company when someone is willing to buy it?",
+      fr: "Qu’est-ce qui détermine réellement la valeur d’une entreprise quand quelqu’un est prêt à l’acheter ?",
+    },
+    context: {
+      en: "Simon Leroux joined us to talk about company valuation from the perspective of someone who has founded, acquired, and sold companies. The discussion was about what buyers actually look at, and what founders often get wrong about value.",
+      fr: "Simon Leroux nous a rejoints pour parler de valorisation d’entreprise avec le regard de quelqu’un qui a fondé, acquis et vendu plusieurs entreprises. La discussion portait sur ce que les acheteurs regardent réellement et sur les erreurs fréquentes des fondateurs quand ils pensent à la valeur de leur entreprise.",
+    },
+    theme: {
+      en: "Company Valuation",
+      fr: "Valorisation d’entreprise",
+    },
+    displayDate: {
+      en: "April 2026",
+      fr: "avril 2026",
+    },
+    location: {
+      en: "Montreal",
+      fr: "Montréal",
+    },
+    speaker: {
+      name: "Simon Leroux",
+      title: {
+        en: "Entrepreneur and founder of Optionality",
+        fr: "Entrepreneur et fondateur d’Optionality",
+      },
+    },
+    description: {
+      en: "A practical conversation about how companies are valued, bought, and sold.",
+      fr: "Une discussion concrète sur la façon dont les entreprises sont valorisées, achetées et vendues.",
+    },
+    descriptionLong: {
+      en: "Simon Leroux took us behind the scenes of company valuation, drawing on experience founding, acquiring, and selling several businesses, including Gazelle to KKR.\n\nWe looked at the drivers behind valuation multiples, the traps founders fall into, and the different perspectives of sellers and buyers. A recurring question was practical rather than theoretical: if you want your company to be worth more when the time comes to sell, what can you actually do today?",
+      fr: "Simon Leroux nous a emmenés dans les coulisses de la valorisation d’entreprise, en s’appuyant sur son expérience de création, d’acquisition et de vente de plusieurs entreprises, dont Gazelle à KKR.\n\nNous avons parlé des facteurs qui influencent les multiples de valorisation, des pièges dans lesquels tombent les fondateurs et des points de vue différents des vendeurs et des acheteurs. La question centrale était surtout pratique : si vous voulez que votre entreprise vaille davantage au moment de la vente, qu’est-ce que vous pouvez réellement faire aujourd’hui ?",
+    },
+    resources: [],
+  },
+  {
+    id: "jam-2026-03",
+    readingTime: 4,
+    format: "panel",
+    keyQuestion: {
+      en: "How do you turn international contacts into actual opportunities?",
+      fr: "Comment transformer des contacts internationaux en véritables opportunités ?",
+    },
+    context: {
+      en: "This Jam focused on a practical question: where to look, how to prepare, and who can help when you want to develop business outside Canada. We heard from Viviane Ferran on the Brazil-Canada Chamber of Commerce and David Chabot on the Canadian Trade Commissioner Service.",
+      fr: "Ce Jam portait sur une question très pratique : où chercher, comment se préparer et qui peut aider lorsqu’on veut développer des affaires à l’extérieur du Canada. Viviane Ferran nous a parlé de la Chambre de commerce Brésil-Canada et David Chabot du Service des délégués commerciaux du Canada.",
+    },
+    theme: {
+      en: "Going International",
+      fr: "Se développer à l’international",
+    },
+    displayDate: {
+      en: "March 2026",
+      fr: "mars 2026",
+    },
+    location: {
+      en: "Montreal",
+      fr: "Montréal",
+    },
+    speakers: [
+      {
+        name: "Viviane Ferran",
+        title: {
+          en: "Brazil-Canada Chamber of Commerce",
+          fr: "Chambre de commerce Brésil-Canada",
+        },
+      },
+      {
+        name: "David Chabot",
+        title: {
+          en: "Product Marketing and Montreal tech ecosystem",
+          fr: "Marketing produit et écosystème tech montréalais",
+        },
+      },
+    ],
+    description: {
+      en: "Two practical perspectives on finding international contacts, preparing for market entry, and using existing trade networks.",
+      fr: "Deux perspectives concrètes sur la recherche de contacts internationaux, la préparation à l’entrée sur un marché et l’utilisation des réseaux commerciaux existants.",
+    },
+    descriptionLong: {
+      en: "We split the evening between two ways of approaching international opportunities.\n\nViviane Ferran introduced the Brazil-Canada Chamber of Commerce, including how chambers work, what they can help with, and how entrepreneurs can use those networks. David Chabot then walked through the Canadian Trade Commissioner Service, with a focus on preparation, contacts, events, and the resources available to companies looking beyond Canada.\n\nThe common thread was straightforward: international expansion starts before the trip. You need to know what you are looking for, be ready to explain what you bring, and know which people or institutions can open the right doors.",
+      fr: "Nous avons partagé la soirée entre deux façons d’aborder les opportunités internationales.\n\nViviane Ferran nous a présenté la Chambre de commerce Brésil-Canada, son fonctionnement, les types de projets qu’elle accompagne et la façon dont les entrepreneurs peuvent utiliser ces réseaux. David Chabot nous a ensuite présenté le Service des délégués commerciaux du Canada, avec un focus sur la préparation, les contacts, les événements et les ressources disponibles pour les entreprises qui regardent au-delà du Canada.\n\nLe fil conducteur était assez simple : le développement international commence avant le voyage. Il faut savoir ce que l’on cherche, être capable d’expliquer ce que l’on apporte et savoir quelles personnes ou institutions peuvent ouvrir les bonnes portes.",
+    },
+    resources: [],
+  },
+  {
+    id: "jam-2026-02",
+    readingTime: 4,
+    format: "guest",
+    keyQuestion: {
+      en: "What happens when a technical founder moves from building a startup to operating inside a large organization?",
+      fr: "Que se passe-t-il quand un fondateur technique passe de la création d’une startup à un grand groupe ?",
+    },
+    context: {
+      en: "Mehdi Merai joined us to talk through his path from co-founding Dataperformers to its acquisition by Deloitte, and then to building again with JetScale AI. The conversation sat at the intersection of research, product, and commercial execution.",
+      fr: "Mehdi Merai nous a rejoints pour revenir sur son parcours, de la cofondation de Dataperformers à son acquisition par Deloitte, puis à la création de JetScale AI. La discussion se situait à l’intersection de la recherche, du produit et de l’exécution commerciale.",
+    },
+    theme: {
+      en: "From AI Research to Company Building",
+      fr: "De la recherche en IA à la création d’entreprise",
+    },
+    displayDate: {
+      en: "February 2026",
+      fr: "février 2026",
+    },
+    location: {
+      en: "Montreal",
+      fr: "Montréal",
+    },
+    speaker: {
+      name: "Mehdi Merai",
+      title: {
+        en: "Founder & CEO, JetScale AI",
+        fr: "Fondateur et PDG, JetScale AI",
+      },
+    },
+    description: {
+      en: "A founder story spanning Dataperformers, its acquisition by Deloitte, and the return to building with JetScale AI.",
+      fr: "Un parcours entrepreneurial entre Dataperformers, son acquisition par Deloitte et un retour à la création avec JetScale AI.",
+    },
+    descriptionLong: {
+      en: "Mehdi Merai shared the path from co-founding Dataperformers, a Montreal AI company acquired by Deloitte in 2021, to joining Deloitte as a Partner in Omnia AI and eventually starting JetScale AI.\n\nThe conversation gave us a chance to look at several transitions that founders rarely talk about in the same room: scaling an AI company, deciding when research needs to become a product, moving inside a much larger organization, and then choosing to build again.",
+      fr: "Mehdi Merai a partagé son parcours depuis la cofondation de Dataperformers, une entreprise montréalaise en IA acquise par Deloitte en 2021, jusqu’à son rôle de Partner au sein d’Omnia AI chez Deloitte, puis à la création de JetScale AI.\n\nLa discussion nous a permis de regarder plusieurs transitions dont les fondateurs parlent rarement dans une même conversation : faire grandir une entreprise d’IA, décider quand la recherche doit devenir un produit, passer dans une grande organisation, puis choisir de recommencer à construire.",
+    },
+    resources: [],
+  },
+  {
+    id: "jam-2026-01",
+    readingTime: 3,
+    format: "community",
+    keyQuestion: {
+      en: "What should we build together at MIJ in 2026?",
+      fr: "Que voulons-nous construire ensemble au sein de MIJ en 2026 ?",
+    },
+    context: {
+      en: "We started 2026 without a guest speaker. Instead, the group took a step back to look at what members wanted from MIJ and which conversations were worth making space for during the year.",
+      fr: "Nous avons commencé 2026 sans intervenant. Le groupe a plutôt pris un peu de recul pour réfléchir à ce que les membres voulaient de MIJ et aux conversations auxquelles il valait la peine de faire de la place pendant l’année.",
+    },
+    theme: {
+      en: "Building Together",
+      fr: "Construire ensemble",
+    },
+    displayDate: {
+      en: "January 2026",
+      fr: "janvier 2026",
+    },
+    location: {
+      en: "Montreal",
+      fr: "Montréal",
+    },
+    description: {
+      en: "A community Jam to look at the survey, choose themes, and shape the year together.",
+      fr: "Un Jam communautaire pour regarder le sondage, choisir les thèmes et construire l’année ensemble.",
+    },
+    descriptionLong: {
+      en: "Our first Jam of 2026 was about MIJ itself. We looked at the member survey, talked through the themes people wanted to explore, and discussed the kinds of builders, operators, and experts we should invite during the year.\n\nThe rest of the evening was deliberately open. We also made room for current questions around housing, Canada-China relations, entrepreneurship through acquisition, AI funding, and the policy changes that could affect Quebec and Canada.\n\nRather than trying to lock everything down for the year, the point was to give the community a direction and keep enough room to adapt as things change.",
+      fr: "Notre premier Jam de 2026 portait sur MIJ lui-même. Nous avons regardé le sondage des membres, discuté des thèmes que les gens voulaient explorer et réfléchi aux types de bâtisseurs, opérateurs et experts que nous devrions inviter pendant l’année.\n\nLe reste de la soirée était volontairement ouvert. Nous avons aussi laissé de la place aux questions du moment autour du logement, des relations Canada-Chine, du repreneuriat, du financement en IA et des changements politiques susceptibles d’avoir un impact au Québec et au Canada.\n\nL’objectif n’était pas de tout figer pour l’année, mais de donner une direction à la communauté tout en gardant assez de marge pour s’adapter.",
+    },
+    resources: [],
+  },
+  {
     id: "jam-2025-09",
     readingTime: 4,
     keyQuestion: {

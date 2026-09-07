@@ -1,6 +1,6 @@
 // src/components/JamCard.tsx
 
-import { Jam } from "../data/pastJams";
+import { Jam } from "../types/jam";
 import { useTranslation } from "react-i18next";
 
 interface JamCardProps {
@@ -41,7 +41,13 @@ export default function JamCard({ jam }: JamCardProps) {
 
       {/* Speaker */}
       <p className="mt-2 text-sm text-stone-600">
-        {jam.speaker.name} — {jam.speaker.title[lang]}
+        {jam.speakers?.length
+          ? jam.speakers.map((speaker) => speaker.name).join(" & ")
+          : jam.speaker
+            ? `${jam.speaker.name} · ${jam.speaker.title[lang]}`
+            : jam.format === "community"
+              ? "MIJ Community"
+              : "Montreal Idea Jams"}
       </p>
 
       {/* Hover reveal */}

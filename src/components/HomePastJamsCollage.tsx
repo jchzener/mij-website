@@ -38,11 +38,23 @@ export default function HomePastJamsCollage() {
           >
             <div className="p-6">
               <h3 className="font-serif text-lg text-stone-900">
-                {jam.speaker.name}
+                {jam.speakers?.length
+                  ? jam.speakers.map((speaker) => speaker.name).join(" & ")
+                  : jam.speaker
+                    ? jam.speaker.name
+                    : jam.format === "community"
+                      ? "MIJ Community"
+                      : "Montreal Idea Jams"}
               </h3>
 
               <p className="text-sm text-stone-600">
-                {jam.speaker.title[lang]}
+                {jam.speakers?.length
+                  ? jam.speakers.map((speaker) => speaker.title[lang]).join(" · ")
+                  : jam.speaker
+                    ? jam.speaker.title[lang]
+                    : jam.format === "community"
+                      ? "Community conversation"
+                      : "Informal gathering"}
               </p>
 
               <p className="text-xs text-stone-500 mt-1 mb-4">
@@ -50,7 +62,7 @@ export default function HomePastJamsCollage() {
               </p>
 
               <blockquote className="text-sm italic text-stone-700 leading-relaxed line-clamp-2 mb-4">
-                “{jam.quote[lang]}”
+                {jam.quote ? `“${jam.quote[lang]}”` : jam.keyQuestion[lang]}
               </blockquote>
 
               <span className="inline-block px-2 py-1 text-xs bg-stone-100 text-stone-700 rounded-full">
