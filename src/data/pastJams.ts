@@ -35,7 +35,18 @@ export const pastJams: Jam[] = [
       en: "For this Jam, we joined Familles en affaires at HEC Montréal to look at repreneuriat from the operator’s side.\n\nThe starting point was simple: buying a business is only one part of the story. The more interesting questions begin after the deal. What are you actually taking over? What can you change? What should you leave alone? And how do you build something of your own without throwing away what already works?",
       fr: "Pour ce Jam, nous nous sommes joints à Familles en affaires de HEC Montréal pour regarder le repreneuriat du point de vue de l’opérateur.\n\nLe point de départ était simple : acheter une entreprise n’est qu’une partie de l’histoire. Les questions les plus intéressantes commencent après la transaction. Qu’est-ce qu’on reprend réellement ? Qu’est-ce qu’on peut changer ? Qu’est-ce qu’il vaut mieux laisser intact ? Et comment construire quelque chose qui nous ressemble sans détruire ce qui fonctionne déjà ?",
     },
-    resources: [],
+    resources: [
+      {
+        type: "book",
+        label: "Buy Then Build",
+        link: "https://books.apple.com/ca/book/buy-then-build/id6443372195",
+      },
+      {
+        type: "book",
+        label: "HBR Guide to Buying a Small Business",
+        link: "https://www.amazon.ca/HBR-Guide-Buying-Small-Business/dp/1633692507",
+      },
+    ],
     gallery: [
       {
         src: "/images/jams/20260828_205750.jpg",
@@ -116,7 +127,19 @@ export const pastJams: Jam[] = [
       en: "Simon Leroux took us behind the scenes of company valuation, drawing on experience founding, acquiring, and selling several businesses, including Gazelle to KKR.\n\nWe looked at the drivers behind valuation multiples, the traps founders fall into, and the different perspectives of sellers and buyers. A recurring question was practical rather than theoretical: if you want your company to be worth more when the time comes to sell, what can you actually do today?",
       fr: "Simon Leroux nous a emmenés dans les coulisses de la valorisation d’entreprise, en s’appuyant sur son expérience de création, d’acquisition et de vente de plusieurs entreprises, dont Gazelle à KKR.\n\nNous avons parlé des facteurs qui influencent les multiples de valorisation, des pièges dans lesquels tombent les fondateurs et des points de vue différents des vendeurs et des acheteurs. La question centrale était surtout pratique : si vous voulez que votre entreprise vaille davantage au moment de la vente, qu’est-ce que vous pouvez réellement faire aujourd’hui ?",
     },
-    resources: [],
+    resources: [
+      {
+        type: "course",
+        label: "Valuation: Measuring and Managing the Value of Companies",
+        link: "https://www.youtube.com/watch?v=_iCd0li8HXw",
+      },
+      {
+        type: "book",
+        label:
+          "The Outsiders: Eight Unconventional CEOs and Their Radically Rational Blueprint for Success",
+        link: "https://www.amazon.ca/Outsiders-Unconventional-Radically-Rational-Blueprint/dp/1422162672",
+      },
+    ],
   },
   {
     id: "jam-2026-03",
@@ -166,7 +189,18 @@ export const pastJams: Jam[] = [
       en: "We split the evening between two ways of approaching international opportunities.\n\nViviane Ferran introduced the Brazil-Canada Chamber of Commerce, including how chambers work, what they can help with, and how entrepreneurs can use those networks. David Chabot then walked through the Canadian Trade Commissioner Service, with a focus on preparation, contacts, events, and the resources available to companies looking beyond Canada.\n\nThe common thread was straightforward: international expansion starts before the trip. You need to know what you are looking for, be ready to explain what you bring, and know which people or institutions can open the right doors.",
       fr: "Nous avons partagé la soirée entre deux façons d’aborder les opportunités internationales.\n\nViviane Ferran nous a présenté la Chambre de commerce Brésil-Canada, son fonctionnement, les types de projets qu’elle accompagne et la façon dont les entrepreneurs peuvent utiliser ces réseaux. David Chabot nous a ensuite présenté le Service des délégués commerciaux du Canada, avec un focus sur la préparation, les contacts, les événements et les ressources disponibles pour les entreprises qui regardent au-delà du Canada.\n\nLe fil conducteur était assez simple : le développement international commence avant le voyage. Il faut savoir ce que l’on cherche, être capable d’expliquer ce que l’on apporte et savoir quelles personnes ou institutions peuvent ouvrir les bonnes portes.",
     },
-    resources: [],
+    resources: [
+      {
+        type: "book",
+        label: "The Culture Map",
+        link: "https://erinmeyer.com/books/the-culture-map/",
+      },
+      {
+        type: "article",
+        label: "Canadian Trade Commissioner Service",
+        link: "https://www.tradecommissioner.gc.ca/",
+      },
+    ],
   },
   {
     id: "jam-2026-02",
@@ -207,7 +241,18 @@ export const pastJams: Jam[] = [
       en: "Mehdi Merai shared the path from co-founding Dataperformers, a Montreal AI company acquired by Deloitte in 2021, to joining Deloitte as a Partner in Omnia AI and eventually starting JetScale AI.\n\nThe conversation gave us a chance to look at several transitions that founders rarely talk about in the same room: scaling an AI company, deciding when research needs to become a product, moving inside a much larger organization, and then choosing to build again.",
       fr: "Mehdi Merai a partagé son parcours depuis la cofondation de Dataperformers, une entreprise montréalaise en IA acquise par Deloitte en 2021, jusqu’à son rôle de Partner au sein d’Omnia AI chez Deloitte, puis à la création de JetScale AI.\n\nLa discussion nous a permis de regarder plusieurs transitions dont les fondateurs parlent rarement dans une même conversation : faire grandir une entreprise d’IA, décider quand la recherche doit devenir un produit, passer dans une grande organisation, puis choisir de recommencer à construire.",
     },
-    resources: [],
+    resources: [
+      {
+        type: "book",
+        label: "The Hard Thing About Hard Things",
+        link: "https://www.harpercollins.com/products/the-hard-thing-about-hard-things-ben-horowitz",
+      },
+      {
+        type: "book",
+        label: "Zero to One",
+        link: "https://www.penguinrandomhouse.ca/books/234730/zero-to-one-by-peter-thiel-with-blake-masters/9780804139298",
+      },
+    ],
   },
   {
     id: "jam-2026-01",
@@ -287,7 +332,18 @@ We talked about the company, the decisions behind it, and the realities of build
 
 Nous avons parlé de l’entreprise, des décisions derrière le produit et des réalités de la construction d’une entreprise alors que les façons de travailler continuent d’évoluer. Nous avons ensuite ouvert la discussion au groupe et commencé à réfléchir aux sujets que MIJ devrait explorer pendant les derniers mois de 2025.`,
     },
-    resources: [],
+    resources: [
+      {
+        type: "book",
+        label: "Co-Intelligence",
+        link: "https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/",
+      },
+      {
+        type: "book",
+        label: "The Coming Wave",
+        link: "https://www.amazon.ca/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952",
+      },
+    ],
     gallery: [
       {
         src: "/images/jams/jam-2025-09-1.jpg",
@@ -489,7 +545,18 @@ La première partie portait sur la réalité des ventes complexes lorsqu’il y 
 
 Nous avons aussi gardé du temps pour les discussions habituelles du groupe autour des acquisitions, de la géopolitique, de l’IA, de la crypto et d’autres sujets amenés par les participants.`,
     },
-    resources: [],
+    resources: [
+      {
+        type: "book",
+        label: "SPIN Selling",
+        link: "https://www.mheducation.com/highered/product/spin-selling-rackham.html",
+      },
+      {
+        type: "book",
+        label: "The Challenger Sale",
+        link: "https://www.amazon.ca/Challenger-Sale-Control-Customer-Conversation/dp/1591844355",
+      },
+    ],
     gallery: [
       {
         src: "/images/jams/jam-2025-04-1.jpg",
@@ -541,7 +608,13 @@ The discussion covered legal due diligence, key terms to negotiate, and how to t
 
 La discussion portait sur la due diligence juridique, les principaux éléments à négocier et la façon de réfléchir à la structure lorsqu’on participe à une acquisition à plusieurs. Nous avons ensuite ouvert la discussion aux questions et aux autres sujets du moment.`,
     },
-    resources: [],
+    resources: [
+      {
+        type: "book",
+        label: "HBR Guide to Buying a Small Business",
+        link: "https://www.amazon.ca/HBR-Guide-Buying-Small-Business/dp/1633692507",
+      },
+    ],
   },
 
   {
@@ -634,7 +707,18 @@ Hasan Uzun a animé une discussion structurée autour des différentes parties p
 
 La discussion était volontairement centrée sur la mécanique d’une acquisition plutôt que sur l’idée de reprise en général.`,
     },
-    resources: [],
+    resources: [
+      {
+        type: "book",
+        label: "Buy Then Build",
+        link: "https://books.apple.com/ca/book/buy-then-build/id6443372195",
+      },
+      {
+        type: "book",
+        label: "HBR Guide to Buying a Small Business",
+        link: "https://www.amazon.ca/HBR-Guide-Buying-Small-Business/dp/1633692507",
+      },
+    ],
     gallery: [
       {
         src: "/images/jams/jam-2024-11-1.jpg",
@@ -743,7 +827,13 @@ Deux invités ont partagé leurs parcours différents pour acheter et gérer une
 
 Nous avons aussi consacré du temps à une question qui revenait souvent : cherche-t-on une entreprise qui correspond à la vie que l’on veut mener, ou une entreprise que l’on veut faire croître rapidement ?`,
     },
-    resources: [],
+    resources: [
+      {
+        type: "book",
+        label: "Buy Then Build",
+        link: "https://books.apple.com/ca/book/buy-then-build/id6443372195",
+      },
+    ],
     gallery: [
       {
         src: "/images/jams/jam-2024-09-1.jpg",
@@ -800,7 +890,18 @@ Pranav a animé la discussion autour de deux transactions réelles dans l’agri
 
 C’était un bon exemple du type de session que MIJ cherchait à créer : partir d’une situation réelle et la travailler ensemble.`,
     },
-    resources: [],
+    resources: [
+      {
+        type: "book",
+        label: "Zero to One",
+        link: "https://www.penguinrandomhouse.ca/books/234730/zero-to-one-by-peter-thiel-with-blake-masters/9780804139298",
+      },
+      {
+        type: "book",
+        label: "The Lean Startup",
+        link: "https://theleanstartup.com/book",
+      },
+    ],
     gallery: [
       {
         src: "/images/jams/jam-2024-08-1.jpg",
@@ -857,7 +958,13 @@ Jean et Roy ont parcouru les fondamentaux de l’IA et du machine learning, nota
 
 L’intérêt n’était pas de faire une liste d’outils. Il s’agissait surtout d’avoir un vocabulaire commun pour réfléchir à l’endroit où l’IA peut réellement être utile.`,
     },
-    resources: [],
+    resources: [
+      {
+        type: "book",
+        label: "Co-Intelligence",
+        link: "https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/",
+      },
+    ],
     gallery: [
       {
         src: "/images/jams/jam-2024-07-1.jpg",
@@ -1016,7 +1123,18 @@ Michael Pflug a également participé à la discussion autour de NovusTX Devices
 
 L’objectif n’était pas de trouver une formule universelle pour investir. Il s’agissait surtout de mieux poser les bonnes questions lorsque l’information est encore incomplète.`,
     },
-    resources: [],
+    resources: [
+      {
+        type: "book",
+        label: "Venture Deals",
+        link: "https://www.amazon.ca/Venture-Deals-Smarter-Lawyer-Capitalist/dp/1119259754",
+      },
+      {
+        type: "book",
+        label: "Zero to One",
+        link: "https://www.penguinrandomhouse.ca/books/234730/zero-to-one-by-peter-thiel-with-blake-masters/9780804139298",
+      },
+    ],
     gallery: [
       {
         src: "/images/jams/jam-2024-05-vc-1.jpg",
