@@ -11,6 +11,14 @@ export const pastJams: Jam[] = [
       en: "What changes when entrepreneurship starts with an existing business rather than a blank page?",
       fr: "Qu’est-ce qui change quand l’entrepreneuriat commence avec une entreprise existante plutôt qu’une page blanche ?",
     },
+    speaker: {
+      name: "Familles en affaires, HEC Montreal",
+      title: {
+        en: "",
+        fr: "",
+      },
+      image: "/images/speakers/20260828_205755.jpg",
+    },
     context: {
       en: "In August, we partnered with Familles en affaires at HEC Montréal for a conversation about repreneuriat. The focus was broader than the transaction itself: what it means to take over an existing business and actually build from there.",
       fr: "En août, nous nous sommes associés à Familles en affaires de HEC Montréal pour une discussion sur le repreneuriat. L’idée allait au-delà de la transaction : que signifie reprendre une entreprise existante et réellement construire à partir de là ?",
@@ -83,8 +91,8 @@ export const pastJams: Jam[] = [
       fr: "Un point de mi-année autour des objectifs, des avancées, des prochains événements et des sujets du moment.",
     },
     descriptionLong: {
-      en: "June was our summer Jam, so we traded the usual setup for a terrace and a more informal evening.\n\nThe conversation was built around a mid-year check-in: what had moved forward, what had not, what people wanted to accomplish before the end of the year, and what was happening around Montreal’s startup ecosystem. Startupfest, summer plans, and the usual side conversations were all part of the mix.",
-      fr: "Le Jam de juin était notre rendez-vous d’été. Nous avons donc remplacé le format habituel par une terrasse et une soirée plus informelle.\n\nLa discussion tournait autour d’un point de mi-année : ce qui avait avancé, ce qui n’avait pas avancé, ce que chacun voulait accomplir avant la fin de l’année et ce qui se passait dans l’écosystème startup montréalais. Startupfest, les plans d’été et les conversations qui partent dans tous les sens faisaient aussi partie du programme.",
+      en: "The conversation was built around a mid-year check-in: what had moved forward, what had not, what people wanted to accomplish before the end of the year, and what was happening around Montreal’s startup ecosystem. Startupfest, summer plans, and the usual side conversations were all part of the mix.",
+      fr: "La discussion tournait autour d’un point de mi-année : ce qui avait avancé, ce qui n’avait pas avancé, ce que chacun voulait accomplir avant la fin de l’année et ce qui se passait dans l’écosystème startup montréalais. Startupfest, les plans d’été et les conversations qui partent dans tous les sens faisaient aussi partie du programme.",
     },
     resources: [],
   },
@@ -118,14 +126,15 @@ export const pastJams: Jam[] = [
         en: "Entrepreneur and founder of Optionality",
         fr: "Entrepreneur et fondateur d’Optionality",
       },
+      image: "/images/speakers/simon.jpeg",
     },
     description: {
       en: "A practical conversation about how companies are valued, bought, and sold.",
       fr: "Une discussion concrète sur la façon dont les entreprises sont valorisées, achetées et vendues.",
     },
     descriptionLong: {
-      en: "Simon Leroux took us behind the scenes of company valuation, drawing on experience founding, acquiring, and selling several businesses, including Gazelle to KKR.\n\nWe looked at the drivers behind valuation multiples, the traps founders fall into, and the different perspectives of sellers and buyers. A recurring question was practical rather than theoretical: if you want your company to be worth more when the time comes to sell, what can you actually do today?",
-      fr: "Simon Leroux nous a emmenés dans les coulisses de la valorisation d’entreprise, en s’appuyant sur son expérience de création, d’acquisition et de vente de plusieurs entreprises, dont Gazelle à KKR.\n\nNous avons parlé des facteurs qui influencent les multiples de valorisation, des pièges dans lesquels tombent les fondateurs et des points de vue différents des vendeurs et des acheteurs. La question centrale était surtout pratique : si vous voulez que votre entreprise vaille davantage au moment de la vente, qu’est-ce que vous pouvez réellement faire aujourd’hui ?",
+      en: "Simon Leroux took us behind the scenes of company valuation, drawing on experience founding, scaling, and selling several businesses, including Gazelle to KKR.\n\nWe looked at the drivers behind valuation multiples, the traps founders fall into, and the different perspectives of sellers and buyers. A recurring question was practical rather than theoretical: if you want your company to be worth more when the time comes to sell, what can you actually do today?",
+      fr: "Simon Leroux nous a emmenés dans les coulisses de la valorisation d’entreprise, en s’appuyant sur son expérience de création, d'expension et de vente de plusieurs entreprises, dont Gazelle à KKR.\n\nNous avons parlé des facteurs qui influencent les multiples de valorisation, des pièges dans lesquels tombent les fondateurs et des points de vue différents des vendeurs et des acheteurs. La question centrale était surtout pratique : si vous voulez que votre entreprise vaille davantage au moment de la vente, qu’est-ce que vous pouvez réellement faire aujourd’hui ?",
     },
     resources: [
       {
