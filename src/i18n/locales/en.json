@@ -11,7 +11,25 @@
       "footer": "Montreal · In-person · Once a month",
       "imageAlt": "People in conversation at Montreal Idea Jams"
     },
+
     "nextJam": {
+      "eyebrow": "Our Next Gathering",
+      "title": "October 23 · Buying and running a Business",
+      "context": "What if your path to entrepreneurship started with buying an existing business? Join us for an honest conversation about business acquisition, financing, leadership, growth, and the realities of taking over and running a Québec SME.",
+      "speakerIntro": "Featuring",
+      "speakerName": "Jean Donald Georges",
+      "speakerTitle": "Co-owner & CEO of Maxi Vent Distribution",
+      "quote": "Entrepreneurship doesn't always start with an idea. Sometimes, it starts with an opportunity to take over and grow an existing business.",
+      "date": "October 23, 2026",
+      "dateLabel": "Date",
+      "time": "7:00 PM – 10:00 PM",
+      "timeLabel": "Time",
+      "location": "Montreal",
+      "locationLabel": "Location",
+      "rsvp": "Limited seats · RSVP recommended",
+      "cta": "Reserve your spot"
+    },
+    "nextJam_april": {
       "eyebrow": "Our Next Gathering",
       "title": "April 24 · Company Valuation",
       "context": "This month we explore what really drives company value: from valuation multiples to the dynamics of the acquisition market, including both sellers, buyers, and everything in between.",
