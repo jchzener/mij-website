@@ -131,7 +131,7 @@ export default function Home() {
 
                   {/* https://tally.so/r/wogA4V */}
                   <a
-                    href="//luma.com/3wh64lfo"
+                    href="https://luma.com/138t088s"
                     target="_blank"
                     rel="noreferrer"
                   >
